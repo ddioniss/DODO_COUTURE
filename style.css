@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-link i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-link i img:hover{
+    background-color: rgba(87, 135, 207, 0.8);
+}
+@media screen and (max-width:420px){
+    .social-link i img{
+        width: 20px;
+    }
+}
+.logo h3{
+    font-weight: bold;
+}
+@media screen and (max-width:420px){
+    .logo h3{
+        font-size: 20px;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:420px){
+    .icons i img{
+        width: 20px;
+    }
+}
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./image/jennie3.JPG);
+    background-size: cover;
+    background-position: 70%;
+}
+#navbar-color{
+    background-color: rgba(87, 135, 207, 0.8);
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link1{
+    margin-left: 30px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.nav-link1:hover{
+    color: rgba(53, 50, 241, 0.8);
+}
+.content{
+    margin-top: 150px;
+    margin-left: 60px;
+}
+.content h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+}
+.p{
+    font-size: 30px;
+    color: black;
+}
+.btn1 button{
+    width: 150px;
+    height: 32px;
+    margin-left: 60px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    background-color: rgba(87, 135, 207, 0.8);
+}
+.btn2{
+    text-align: center;
+}
+.btn2 button{
+    width: 150px;
+    height: 30px;
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn2 button:hover{
+    background-color: rgba(87, 135, 207, 0.8);
+}
+@media screen and (max-width:895px){
+    .btn2 button{
+        width: 100px;
+    }
+}
+@media screen and (max-width:420px){
+    .content h1{
+        font-size: 30px;
+    }
+}
+#tpc{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+.btn3 button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn3 button:hover{
+    background-color: rgba(87, 135, 207, 0.8);
+}
+@media screen and (max-width:895px){
+    .btn3 button{
+        width: 100px;
+    }
+}
+.btn4{
+    text-align: center;
+}
+.btn4 button{
+    width: 150px;
+    height: 30px;
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn4 button:hover{
+    background-color: rgba(87, 135, 207, 0.8);
+}
+@media screen and (max-width:895px){
+    .btn4 button{
+        width: 100px;
+    }
+}
+.image{
+    width: 500px;
+    height: 500px;
+}
+#footer{
+    width: 100%;
+    background-color: rgba(87, 135, 207, 0.8);
+    margin-top: 100px;
+}
+#footer h1{
+    color: black;
+    padding-top: 30px;
+}
+#footer p{
+    color: black;
+}
+.copyright{
+    color: black;
+    margin-top: 20px;
+}
+.credite{
+    color: black;
+}
+.a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#a1{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(87, 135, 207, 0.8);
+}
+.margin{
+    margin-bottom: 50px;
+}
+.text1{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.table1{
+    text-align: center;
+}
+.min-height {
+    min-height: 200px;
+}
+.btn5{
+    text-align: center;
+}
+.btn5 button{
+    width: 500px;
+    height: 100px;
+    color: black;
+    font-size: 40px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    position: sticky;
+    cursor: pointer;
+}
+.btn5 button:hover{
+    background-color: rgba(87, 135, 207, 0.8);
+}
+@media screen and (max-width:895px){
+    .btn5 button{
+        width: 300px;
+    }
+}
